@@ -126,3 +126,6 @@ input[type="search"]::-webkit-input-placeholder {
     top: -10px;
     left: -10px;
 }
+.logo {
+    padding-top: 8px;
+}

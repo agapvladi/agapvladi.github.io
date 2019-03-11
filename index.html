@@ -24,16 +24,16 @@
                     <nav>
                         <ul class="menu row">
                             <li><a href="">Home</a></li>
-                            <li class="dropdown"><a href="" class="product">Products</a>
-                            <ul class="dropdown-child">
-                                <li><a href="">1</a></li>
-                                <li><a href="">2</a></li>
-                                <li><a href="">3</a></li>
-                                <li><a href="">4</a></li>
-                                <li><a href="">5</a></li>
-                                <li><a href="">6</a></li>
-                                <li><a href="">7</a></li>
-                            </ul>
+                            <li class="products"><a href="">Products</a>
+                                <ul class="products-sub">
+                                    <li><a href="">Lorem ipsum</a></li>
+                                    <li><a href="">dolor, sit</a></li>
+                                    <li><a href="">amet consectetur</a></li>
+                                    <li><a href="">adipisicing elit.</a></li>
+                                    <li><a href="">Tempore laboriosam</a></li>
+                                    <li><a href="">voluptates harum</a></li>
+                                    <li><a href="">aut quibusdam.</a></li>
+                                </ul>
                             </li>
                             <li><a href="">Payment</a></li>
                             <li><a href="">Shipping</a></li>
@@ -41,193 +41,223 @@
                     </nav>
                 </div>
                 <div class="col-md-3">
-                    <div class="search row"><input type="text" placeholder="search"><input type="button"></div>
+                    <div class="search row"><input class="custom-button" type="text" placeholder="search"><input class="custom-button" type="button"></div>
                     <div class="basket"><div class="number">4</div></div>
                 </div>
             </div>
         </div>
     </header>
     <main>
+        <section class="slider">
+            <div class="conteiner">
+
+            </div>
+        </section>
         <div class="container">
             <div class="row">
                 <div class="col-md-3">123</div>
                 <div class="col-md-9">
-                    <div class="bread">
-                        <ul class="row">
-                            <li><a href="">Home page</a></li>
-                            <li><a href="">Products</a></li>
-                            <li><a href="">Laptops and Tablets</a></li>
-                        </ul>  
-                    </div>
+                    <ul class="row bread">
+                        <li><a href="">Home page</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Laptops and Tablets</a></li>
+                    </ul>
                     <div class="row">
                         <div class="col-md-9">
                             <h2>Laptops and Tablets</h2>
                         </div>
                         <div class="col-md-3">
-                            <div class="sort">sort by price</div>
-                            <div class="sub-sort">sort by name</div>
-                            <div class="sub-sort">sort by date</div>
-                            <div class="sub-sort">sort by popularity</div>
+                            <div class="sortdrop">
+                                <div class="sort meinsort">sort by price</div>
+                                <div class="hidesort row">
+                                    <div class="sort subsort subsort1">sort by name</div>
+                                    <div class="sort subsort subsort2">sort by date</div>
+                                    <div class="sort subsort subsort3">sort by popularity</div> 
+                                </div>
+                            </div>        
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-4 mr">
-                            <div class="img-product">
-                                <button class="icon target"></button>
-                                <button class="icon like"></button>
-                                <img src="images/display.png" alt="display logo">
-                            </div>
-                            <div class="detailes mr">
-                                <h3>#1 Device Name</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                                <p><strong class="dt">type:</strong> Laptop</p>
-                                <p><strong class="dt">screen size:</strong> 7 inches</p>
-                                <p><strong class="dt">ram:</strong> 1GB</p>
-                                <h3 class="price">$599 <sup class="coin">25</sup></h3>
-                                <button class="btn">more detailes</button>
-                                <button class="btn add">add to card</button>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mr">
-                            <div class="img-product">
-                                <button class="icon target"></button>
-                                <button class="icon like"></button>
-                                <img src="images/TVbox.png" alt="TVbox logo">
-                            </div>
-                            <div class="detailes mr">
-                                <h3>#1 Device Name</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                                <p><strong class="dt">type:</strong> Laptop</p>
-                                <p><strong class="dt">screen size:</strong> 7 inches</p>
-                                <p><strong class="dt">ram:</strong> 1GB</p>
-                                <h3 class="price">$1250 <sup class="coin">99</sup></h3>
-                                <button class="btn">more detailes</button>
-                                <button class="btn add">add to card</button>
+                        <div class="col-md-4 mr-l">
+                            <div class="product">
+                                <div class="img-product">
+                                    <button class="icon target custom-button"></button>
+                                    <button class="icon like custom-button"></button>
+                                    <img src="images/TV.png" alt="TV logo">
+                                </div>
+                                <div class="detailes">
+                                    <h3>#1 Device Name</h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    <p><strong class="dt">type:</strong> Laptop</p>
+                                    <p><strong class="dt">screen size:</strong> 7 inches</p>
+                                    <p><strong class="dt">ram:</strong> 1GB</p>
+                                    <p class="text-center"><strong class="price">$599</strong><strong class="coin">25</strong></p>
+                                    <button class="btn custom-button">more detailes</button>
+                                    <button class="btn add custom-button">add to card</button>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mr">
-                            <div class="img-product">
-                                <button class="icon target"></button>
-                                <button class="icon like"></button>
-                                <img src="images/SmartWatch.png" alt="Smart Watch logo">
-                            </div>
-                            <div class="detailes mr">
-                                <h3>#1 Device Name</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                                <p><strong class="dt">type:</strong> Laptop</p>
-                                <p><strong class="dt">screen size:</strong> 7 inches</p>
-                                <p><strong class="dt">ram:</strong> 1GB</p>
-                                <h3 class="price">$399 <sup class="coin">50</sup></h3>
-                                <button class="btn">more detailes</button>
-                                <button class="btn add">add to card</button>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mr">
-                            <div class="img-product">
-                                <button class="icon target"></button>
-                                <button class="icon like"></button>
-                                <img src="images/Laptop.png" alt="Laptop logo">
-                            </div>
-                            <div class="detailes mr">
-                                <h3>#1 Device Name</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                                <p><strong class="dt">type:</strong> Laptop</p>
-                                <p><strong class="dt">screen size:</strong> 7 inches</p>
-                                <p><strong class="dt">ram:</strong> 1GB</p>
-                                <h3 class="price">$599 <sup class="coin">25</sup></h3>
-                                <button class="btn">more detailes</button>
-                                <button class="btn add">add to card</button>
+                        <div class="col-md-4 mr-c">
+                            <div class="product">
+                                    <div class="img-product">
+                                        <button class="icon target custom-button"></button>
+                                        <button class="icon like custom-button"></button>
+                                        <img src="images/TVbox.png" alt="TVbox logo">
+                                    </div>
+                                    <div class="detailes mr">
+                                        <h3>#1 Device Name</h3>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                        <p><strong class="dt">type:</strong> Laptop</p>
+                                        <p><strong class="dt">screen size:</strong> 7 inches</p>
+                                        <p><strong class="dt">ram:</strong> 1GB</p>
+                                        <p class="text-center"><strong class="price">$1250</strong><strong class="coin">99</strong></p>
+                                        <button class="btn custom-button">more detailes</button>
+                                        <button class="btn add custom-button">add to card</button>
+                                    </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mr">
-                            <div class="img-product">
-                                <button class="icon target"></button>
-                                <button class="icon like"></button>
-                                <img src="images/iPod.png" alt="iPod logo">
-                            </div>
-                            <div class="detailes mr">
-                                <h3>#1 Device Name</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                                <p><strong class="dt">type:</strong> Laptop</p>
-                                <p><strong class="dt">screen size:</strong> 7 inches</p>
-                                <p><strong class="dt">ram:</strong> 1GB</p>
-                                <h3 class="price">$1250 <sup class="coin">99</sup></h3>
-                                <button class="btn">more detailes</button>
-                                <button class="btn add">add to card</button>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mr">
-                            <div class="img-product">
-                                <button class="icon target"></button>
-                                <button class="icon like"></button>
-                                <img src="images/Smartphone.png" alt="Smartphone logo">
-                            </div>
-                            <div class="detailes mr">
-                                <h3>#1 Device Name</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                                <p><strong class="dt">type:</strong> Laptop</p>
-                                <p><strong class="dt">screen size:</strong> 7 inches</p>
-                                <p><strong class="dt">ram:</strong> 1   GB</p>
-                                <h3 class="price">$399 <sup class="coin">50</sup></h3>
-                                <button class="btn">more detailes</button>
-                                <button class="btn add">add to card</button>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mr">
-                            <div class="img-product">
-                                <button class="icon target"></button>
-                                <button class="icon like"></button>
-                                <img src="images/iPad.png" alt="iPad logo">
-                            </div>
-                            <div class="detailes mr">
-                                <h3>#1 Device Name</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                                <p><strong class="dt">type:</strong> Laptop</p>
-                                <p><strong class="dt">screen size:</strong> 7 inches</p>
-                                <p><strong class="dt">ram:</strong> 1   GB</p>
-                                <h3 class="price">$599 <sup class="coin">25</sup></h3>
-                                <button class="btn">more detailes</button>
-                                <button class="btn add">add to card</button>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mr">
-                            <div class="img-product">
-                                <button class="icon target"></button>
-                                <button class="icon like"></button>
-                                <img src="images/TVbox2.png" alt="TV box logo">
-                            </div>
-                            <div class="detailes mr">
-                                <h3>#1 Device Name</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                                <p><strong class="dt">type:</strong> Laptop</p>
-                                <p><strong class="dt">screen size:</strong> 7 inches</p>
-                                <p><strong class="dt">ram:</strong> 1   GB</p>
-                                <h3 class="price">$1250 <sup class="coin">99</sup></h3>
-                                <button class="btn">more detailes</button>
-                                <button class="btn add">add to card</button>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mr">
-                            <div class="img-product">
-                                <button class="icon target"></button>
-                                <button class="icon like"></button>
-                                <img src="images/SmartWatch2.png" alt="Smartwatch logo">
-                            </div>
-                            <div class="detailes mr">
-                                <h3>#1 Device Name</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                                <p><strong class="dt">type:</strong> Laptop</p>
-                                <p><strong class="dt">screen size:</strong> 7 inches</p>
-                                <p><strong class="dt">ram:</strong> 1   GB</p>
-                                <h3 class="price">$399 <sup class="coin">50</sup></h3>
-                                <button class="btn">more detailes</button>
-                                <button class="btn add">add to card</button>
+                        <div class="col-md-4 mr-r">
+                            <div class="product">
+                                <div class="img-product">
+                                    <button class="icon target custom-button"></button>
+                                    <button class="icon like custom-button"></button>
+                                    <img src="images/SmartWatch.png" alt="Smart Watch logo">
+                                </div>
+                                <div class="detailes mr">
+                                    <h3>#1 Device Name</h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    <p><strong class="dt">type:</strong> Laptop</p>
+                                    <p><strong class="dt">screen size:</strong> 7 inches</p>
+                                    <p><strong class="dt">ram:</strong> 1GB</p>
+                                    <p class="text-center"><strong class="price">$399</strong><strong class="coin">50</strong></p>
+                                    <button class="btn custom-button">more detailes</button>
+                                    <button class="btn add custom-button">add to card</button>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-md-4 mr-l">
+                            <div class="product">
+                                <div class="img-product">
+                                    <button class="icon target custom-button"></button>
+                                    <button class="icon like custom-button"></button>
+                                    <img src="images/Laptop.png" alt="Laptop logo">
+                                </div>
+                                <div class="detailes">
+                                    <h3>#1 Device Name</h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    <p><strong class="dt">type:</strong> Laptop</p>
+                                    <p><strong class="dt">screen size:</strong> 7 inches</p>
+                                    <p><strong class="dt">ram:</strong> 1GB</p>
+                                    <p class="text-center"><strong class="price">$599</strong><strong class="coin">25</strong></p>
+                                    <button class="btn custom-button">more detailes</button>
+                                    <button class="btn add custom-button">add to card</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mr-c">
+                            <div class="product">
+                                    <div class="img-product">
+                                        <button class="icon target custom-button"></button>
+                                        <button class="icon like custom-button"></button>
+                                        <img src="images/iPod.png" alt="iPod logo">
+                                    </div>
+                                    <div class="detailes mr">
+                                        <h3>#1 Device Name</h3>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                        <p><strong class="dt">type:</strong> Laptop</p>
+                                        <p><strong class="dt">screen size:</strong> 7 inches</p>
+                                        <p><strong class="dt">ram:</strong> 1GB</p>
+                                        <p class="text-center"><strong class="price">$1250</strong><strong class="coin">99</strong></p>
+                                        <button class="btn custom-button">more detailes</button>
+                                        <button class="btn add custom-button">add to card</button>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mr-r">
+                            <div class="product">
+                                <div class="img-product">
+                                    <button class="icon target custom-button"></button>
+                                    <button class="icon like custom-button"></button>
+                                    <img src="images/Smartphone.png" alt="Smartphone logo">
+                                </div>
+                                <div class="detailes mr">
+                                    <h3>#1 Device Name</h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    <p><strong class="dt">type:</strong> Laptop</p>
+                                    <p><strong class="dt">screen size:</strong> 7 inches</p>
+                                    <p><strong class="dt">ram:</strong> 1GB</p>
+                                    <p class="text-center"><strong class="price">$399</strong><strong class="coin">50</strong></p>
+                                    <button class="btn custom-button">more detailes</button>
+                                    <button class="btn add custom-button">add to card</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-md-4 mr-l">
+                                <div class="product">
+                                    <div class="img-product">
+                                        <button class="icon target custom-button"></button>
+                                        <button class="icon like custom-button"></button>
+                                        <img src="images/iPad.png" alt="iPad logo">
+                                    </div>
+                                    <div class="detailes">
+                                        <h3>#1 Device Name</h3>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                        <p><strong class="dt">type:</strong> Laptop</p>
+                                        <p><strong class="dt">screen size:</strong> 7 inches</p>
+                                        <p><strong class="dt">ram:</strong> 1GB</p>
+                                        <p class="text-center"><strong class="price">$599</strong><strong class="coin">25</strong></p>
+                                        <button class="btn custom-button">more detailes</button>
+                                        <button class="btn add custom-button">add to card</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mr-c">
+                                <div class="product">
+                                        <div class="img-product">
+                                            <button class="icon target custom-button"></button>
+                                            <button class="icon like custom-button"></button>
+                                            <img src="images/TVbox2.png" alt="TVbox2 logo">
+                                        </div>
+                                        <div class="detailes mr">
+                                            <h3>#1 Device Name</h3>
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                            <p><strong class="dt">type:</strong> Laptop</p>
+                                            <p><strong class="dt">screen size:</strong> 7 inches</p>
+                                            <p><strong class="dt">ram:</strong> 1GB</p>
+                                            <p class="text-center"><strong class="price">$1250</strong><strong class="coin">99</strong></p>
+                                            <button class="btn custom-button">more detailes</button>
+                                            <button class="btn add custom-button">add to card</button>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mr-r">
+                                <div class="product">
+                                    <div class="img-product">
+                                        <button class="custom-button target"></button>
+                                        <button class="custom-button like"></button>
+                                        <img src="images/SmartWatch2.png" alt="SmartWatch2 logo">
+                                    </div>
+                                    <div class="detailes mr">
+                                        <h3>#1 Device Name</h3>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                        <p><strong class="dt">type:</strong> Laptop</p>
+                                        <p><strong class="dt">screen size:</strong> 7 inches</p>
+                                        <p><strong class="dt">ram:</strong> 1GB</p>
+                                        <p class="text-center"><strong class="price">$399</strong><strong class="coin">50</strong></p>
+                                        <button class="btn custom-button">more detailes</button>
+                                        <button class="btn add custom-button">add to card</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     <p class="load">Load more...</p>
                 </div>
             </div>
+            
         </div>
     </main>
     <footer class="footer">footer</footer>

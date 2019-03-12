@@ -58,8 +58,8 @@ body {
     width: 25%;/*142px*/
     float: left;
 }
-.menu li:first-child>a {
-    border-left: 1px solid #2c71b8;
+.menu li:last-child>a {
+    border-right: 1px solid #2c71b8;
 }
 .menu a {
     display: block;
@@ -69,7 +69,7 @@ body {
     text-decoration: none;
     font-size: 21px;
     color: #2c71b8;
-    border-right: 1px solid #2c71b8;
+    border-left: 1px solid #2c71b8;
 }
 .menu li:hover>a {
     background-color: #2c71b8;
@@ -89,7 +89,6 @@ body {
 .products-sub {
     position: absolute;
     display: none;
-    left: -1;
     z-index: 10;
 }
 .products-sub li {

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -58,22 +58,28 @@
                 <div class="col-md-3">
                     <div class="filter">
                         <form action="">
-                            <p>Device type</p>
-                            <p><input type="checkbox" id="dt-laptop"><label for="dt-laptop">Leptop</label></p>
-                            <p><input type="checkbox" id="dt-tablet"><label for="dt-tablet">Tablet</label></p>
-                            <p>Color</p>
-                            <p><input type="checkbox" id="c-black"><label for="c-black">Black</label></p>
-                            <p><input type="checkbox" id="c-red"><label for="c-red">Red</label></p>
-                            <p><input type="checkbox" id="c-green"><label for="c-green">Green</label></p>
-                            <p><input type="checkbox" id="c-blue"><label for="c-blue">Blue</label></p>
-                            <p><input type="checkbox" id="c-orange"><label for="c-orange">Orange</label></p>
-                            <p>Ram</p>
-                            <p><input type="checkbox" id="ram-1"><label for="ram-1">1GB</label></p>
-                            <p><input type="checkbox" id="ram-2"><label for="ram-2">2GB</label></p>
-                            <p><input type="checkbox" id="ram-4"><label for="ram-4">4GB</label></p>
-                            <p><input type="checkbox" id="ram-6"><label for="ram-6">6GB</label></p>
-                            <p><input type="checkbox" id="ram-8"><label for="ram-8">8GB</label></p>
-                            <p>Show more options...</p>
+                            <div class="form-type mr-b">
+                                <p class="f-type">Device type</p>
+                                <label for="dt-laptop"><input type="checkbox" id="dt-laptop"><span class="mark">Laptop</span></label>
+                                <label for="dt-tablet"><input type="checkbox" id="dt-tablet"><span class="mark">Tablet</span></label>
+                            </div>
+                            <div class="form-type mr-b">
+                                <p class="f-type">Color</p>
+                                <label for="c-black"><input type="checkbox" id="c-black"><span class="mark">Black</span></label>
+                                <label for="c-red"><input type="checkbox" id="c-red"><span class="mark">Red</span></label>
+                                <label for="c-green"><input type="checkbox" id="c-green"><span class="mark">Green</span></label>
+                                <label for="c-blue"><input type="checkbox" id="c-blue"><span class="mark">Blue</span></label>
+                                <label for="c-orange"><input type="checkbox" id="c-orange"><span class="mark">Orange</span></label>
+                            </div>
+                            <div class="form-type">
+                                <p class="f-type">Ram</p>
+                                <label for="ram-1"><input type="checkbox" id="ram-1"><span class="mark">1GB</span></label>
+                                <label for="ram-2"><input type="checkbox" id="ram-2"><span class="mark">2GB</span></label>
+                                <label for="ram-4"><input type="checkbox" id="ram-4"><span class="mark">4GB</span></label>
+                                <label for="ram-6"><input type="checkbox" id="ram-6"><span class="mark">6GB</span></label>
+                                <label for="ram-8"><input type="checkbox" id="ram-8"><span class="mark">8GB</span></label>
+                            </div>
+                            <p class="">Show more options...</p>
                             <input type="submit" value="submit">
                         </form>
                     </div>
@@ -276,12 +282,14 @@
                                 </div>
                             </div>
                         </div>
-                    <p class="load">Load more...</p>
+                    <p class="load">Load more ...</p>
                 </div>
             </div>
             
         </div>
     </main>
-    <footer class="footer">footer</footer>
+    <footer class="footer">
+        <p>© Copyright 2017</p>
+    </footer>
 </body>
 </html>
